@@ -3,6 +3,7 @@ Library for managing camera and file intents easily
 
 [![Build Status](https://travis-ci.org/jacek-marchwicki/intent-helper.svg?branch=master)](https://travis-ci.org/jacek-marchwicki/intent-helper)
 
+![How app works](docs/tip.gif)
 
 # Usage
 Add library to project dependencies.
