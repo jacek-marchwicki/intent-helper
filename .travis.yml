@@ -23,9 +23,8 @@ script: ./gradlew build
 
 
 after_failure:
-after_failure:
-  - pandoc app/build/reports/tests/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
-  - pandoc intenthelper/build/reports/tests/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
+  - pandoc app/build/reports/tests/release/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
+  - pandoc intenthelper/build/reports/tests/release/index.html -t plain | sed -n '/^Failed tests/,/default-package/p'
 
 
 after_script:
